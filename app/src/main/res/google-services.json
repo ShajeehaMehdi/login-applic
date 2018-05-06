@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311107368857",
+    "firebase_url": "https://loginproject-352c7.firebaseio.com",
+    "project_id": "loginproject-352c7",
+    "storage_bucket": "loginproject-352c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311107368857:android:931139eba6c43c25",
+        "android_client_info": {
+          "package_name": "com.example.shajeeha.mydemoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311107368857-9bt1ue4le19k2529qsj85qmk8a5tg4j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK-1isjqQDlSblqNLG_i2o9pJnopREbNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

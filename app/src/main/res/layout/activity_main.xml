@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/zground"
+        android:scaleType="centerCrop"
+        android:id="@+id/loginBack"/>
+
+
+<RelativeLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="80dp"
+    android:layout_marginRight="80dp">
+
+
+    <ImageView
+        android:id="@+id/LoginLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/relay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginLogo"
+        android:visibility="visible"
+        >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginStart="1dp"
+                android:background="@drawable/rounded_rect"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_account_child"
+                android:hint="E-mail"
+                android:scrollHorizontally="false"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginStart="1dp"
+                android:drawableLeft="@drawable/ic_action_https"
+                android:background="@drawable/rounded_rect"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/login_rect"
+                android:text="Log In" />
+
+            <ProgressBar
+                android:id="@+id/progressLogin"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp"
+                android:text="Don't have an account? Sign Up now!"
+                android:background="@drawable/onlytext"
+                android:textAllCaps="false"
+                android:textColor="@color/blacker"
+                />
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:text="Exit"
+                android:background="@drawable/onlytext"
+                android:textAllCaps="false"
+                android:textColor="@color/blacker"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
